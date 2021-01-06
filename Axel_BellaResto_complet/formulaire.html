@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="formulaire.css">
+        <title>Bella olonge</title>
+    </head>
+    <body>
+        <header id="home">
+            <div class="nav">
+                <div class="navimg">
+                    <img src="Image/logo.png">
+                </div>
+                <nav>
+                    <a href="Pizza.html#home">Home</a>
+                    <a href="Pizza.html#pizza">Pizza</a>
+                    <a href="Pizza.html#burger">Burger</a>
+                    <a href="Pizza.html#salade">Salade</a>
+                    <a href="Contact.html">Contact</a>
+                </nav>
+            </div>
+            <div class="bann1">
+                <p>Food App</p>
+                <p>Chez bella<br>chaque désir s'additionne.</p>
+            </div>                        
+        </header>
+        <form action="">
+            <div class="forminf">
+                <h3>Vos informations.</h3>
+                <div class="inf">
+                    <label for="name" class="name">Nom
+                    <input type="text" id="name" name="name" value="Nom"></label>
+                    <label for="first-name" class="first-name">Prénom
+                    <input type="text" id="first-name" name="name" value="Prénom"></label>
+                    <label for="phone" class="phone">Téléphone
+                    <input type="tel" id="phone" name="name" value="Téléphone"></label>
+                    <label for="e-mail" class="mail">E-mail
+                    <input type="email" id="e-mail" name="name" value="E-mail"></label>
+                </div>                                
+            </div>
+            <hr>
+            <div class="formcom">
+                <div class="comtitle">
+                    <h3>Votre commande</h3>
+                    <p>Pizza 4 fromages</p>
+                </div>
+                <h4>Suppléments</h4>
+                <div class="formsupp">
+                    <div class="ingredient">
+                        <label for="ingredient">Ingrédient
+                            <select name="ingredient" id="ingredient">
+                                <option value="fromage">Fromage</option>
+                                <option value="viande">Viande</option>
+                                <option value="poisson">Poisson</option>
+                            </select>
+                        </label>
+                        <label for="ingredient">Ingrédient
+                            <select name="ingredient" id="ingredient">
+                                <option value="fromage">Fromage</option>
+                                <option value="viande">Viande</option>
+                                <option value="poisson">Poisson</option>
+                            </select>
+                        </label>
+                        <label for="ingredient">Ingrédient
+                            <select name="ingredient" id="ingredient">
+                                <option value="fromage">Fromage</option>
+                                <option value="viande">Viande</option>
+                                <option value="poisson">Poisson</option>
+                            </select>
+                        </label>
+                        <label for="ingredient">Ingrédient
+                            <select name="ingredient" id="ingredient">
+                                <option value="fromage">Fromage</option>
+                                <option value="viande">Viande</option>
+                                <option value="poisson">Poisson</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="quantité">
+                        <label for="quantité">Quantité
+                            <input type="number" id="quantité" name="quantité" value="1">
+                        </label>
+                        <label for="quantité">Quantité
+                            <input type="number" id="quantité" name="quantité" value="1">
+                        </label>
+                        <label for="quantité">Quantité
+                            <input type="number" id="quantité" name="quantité" value="1">
+                        </label>
+                        <label for="quantité">Quantité
+                            <input type="number" id="quantité" name="quantité" value="1">
+                        </label>
+                    </div>
+                </div> 
+                <div class="formfri">
+                    <div class="afri">
+                        <input type="checkbox" id="frite" name="frite">
+                        <label for="frite">Avec frites</label>  
+                    </div>
+                    <div class="sfri">
+                        <input type="checkbox" id="no-frite" name="frite">
+                        <label for="no-frite">Sans frites</label> 
+                    </div>                                                              
+                </div>
+                <div class="extra">                
+                    <div class="boisson">
+                        <h4>Boissons</h4>
+                        <div>
+                            <div>
+                               <input type="checkbox" id="coca" name="boisson">
+                                <label for="coca">Coca-cola</label> 
+                            </div>                            
+                            <input type="number" id="coca" name="boisson" value="1">
+                        </div>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="fanta" name="boisson">
+                                <label for="fanta">Fanta</label>
+                            </div>
+                            <input type="number" id="fanta" name="boisson" value="1">
+                        </div>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="eau" name="boisson">
+                                <label for="eau">Eau</label>
+                            </div>                            
+                            <input type="number" id="eau" name="boisson" value="1">
+                        </div>                       
+                    </div>
+                    <div class="dessert">
+                        <h4>Desserts</h4>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="tiramisu" name="dessert">
+                                <label for="tiramisu">Tiramisu</label>
+                            </div>                            
+                            <input type="number" id="tiramisu" name="dessert" value="1">
+                        </div>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="cheese-cake" name="dessert">
+                                <label for="cheese-cake">Cheese-cake</label>
+                            </div>                            
+                            <input type="number" id="cheese-cake" name="dessert" value="1">
+                        </div>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="tarte" name="dessert">
+                                <label for="tarte">Tarte aux fraises</label>
+                            </div>                            
+                            <input type="number" id="tarte" name="dessert" value="1">
+                        </div>                         
+                    </div>
+                </div>               
+            </div>
+            <hr>
+            <div class="formliv">
+                <h3>Adresse de livraison.</h3>
+                <div class="infliv">            
+                    <label for="name1" class="name1">Nom
+                    <input type="text" id="name1" name="adresse" value="Nom"></label>               
+                    <label for="first-name1" class="first-name1">Prénom
+                    <input type="text" id="first-name1" name="adresse" value="Prénom"></label>                
+                    <label for="telephone1" class="telephone1">Téléphone
+                    <input type="text" id="telephone1" name="adresse" value="Téléphone"></label>                
+                    <label for="e-mail1" class="e-mail1">E-mail
+                    <input type="email" id="e-mail1" name="adresse" value="E-mail"></label>                
+                    <label for="adresse1" class="adresse1">Adresse
+                    <input type="text" id="adresse1" name="adresse" value="Adresse"></label>                
+                    <label for="code-postal1" class="code-postal1">Code postal
+                    <input type="text" id="code-postal1" name="adresse" value="Code-postal"></label>                
+                    <label for="ville1" class="ville1">Ville
+                    <input type="text" id="ville1" name="adresse" value="Ville"></label>                         
+                    <label for="pays1" class="pays1">Pays
+                    <input type="text" id="pays1" name="adresse" value="Pays"></label>                    
+                </div>
+                 <button>Envoyer</button>              
+            </div>
+            
+        </form>
+    </body>

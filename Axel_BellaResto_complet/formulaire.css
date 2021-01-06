@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@media screen and (max-width: 767px){
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    body{
+        width: max-content;
+        margin: 0;
+    }
+    header img{
+        width: 206px;
+        height: 102px;
+        padding-left: 90px;
+        padding-top: 26.12px;
+        margin-bottom: 27.12px;
+    }
+    header{
+        height: 774px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        width: 738px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 53px;
+        padding-right: 45px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bann1{
+        background: no-repeat center/ 100% url(Image/Rectangle48.png);
+        height: 619px;
+        display: flex;
+        flex-direction: column;
+        text-align: center ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+
+    }
+    .bann1 p:first-child{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #F7F7F7;
+        margin-top: 73px;
+        
+    }
+    .bann1 p:nth-child(2){
+        top: 126px;
+        color: #ffffff;
+    }
+
+    h3{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        opacity: 0.8;
+        margin-left: 70px;
+    }
+    hr{
+        margin-top: 61.3px;
+        width: 50%;
+        left: auto;
+        right: auto;
+    }
+    h4{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-left: 70px;
+    }
+    .forminf{
+        height: 370px;
+    }
+    .inf{
+        height: 152px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 70px 320px 420px 320px 310px;
+    }
+    .name{
+        grid-row: 1;
+        grid-column: 2;
+
+    }
+    .first-name{
+        grid-row: 1;
+        grid-column: 4;
+    }
+    .phone{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .mail{
+        grid-row: 2;
+        grid-column: 4;
+    }
+    .name,.first-name,.mail,.phone{
+        display: flex;
+        flex-direction: column;
+    }
+    .formcom{
+        height: 899px;
+    }
+    .comtitle p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FA4A0C;
+        grid-column: 4;
+        align-self: center;
+    }
+    .comtitle{
+        display: grid;
+        grid-template-columns: 70px 396px 425px 1fr;
+    }
+    .comtitle h3{
+        grid-column: 2;
+        width: 100%;
+        margin-left: 0;
+    }
+    .formsupp{
+        display: grid;
+        grid-template-columns: 70px 320px 86px auto;
+    }
+    .ingredient{
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between ;
+        height: 304px;
+    }
+    .quantité{
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+        height: 304px;
+    }
+    .ingredient label{
+        height: 25%;
+    }
+    .quantité label{
+        height: 25%;
+    }
+    .formfri{
+        height: 89px;
+        display: grid;
+        grid-template-columns: 70px auto;
+        grid-template-rows: 1fr 1fr;
+    }
+    .afri{
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .sfri{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .extra{
+        height: 267px;
+        display: grid;
+        grid-template-columns: 70px 436px 187px 436px auto;
+    }
+    .boisson{
+        width: 462px;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .dessert{
+        width: 462px;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .boisson div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .dessert div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .formliv{
+        height: 867px;
+        
+    }
+    .infliv{
+        display: grid;
+        grid-template-rows: repeat(4,88px) ;
+        grid-template-columns: 70px 320px 420px 320px auto;
+    }
+    .name1{
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-name1{
+        grid-row: 1;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .telephone1{
+        grid-row: 2;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .e-mail1{
+        grid-row: 2;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .adresse1{
+        grid-row: 3;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .code-postal1{
+        grid-row: 3;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .ville1{
+        grid-row: 4 ;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .pays1{
+        grid-row: 4;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        height: 68px;
+        width: 177px;
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        margin-left: 1015px;
+        margin-top: 182px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    body{
+        width: max-content;
+        margin: 0;
+    }
+    header img{
+        width: 206px;
+        height: 102px;
+        padding-left: 90px;
+        padding-top: 26.12px;
+        margin-bottom: 27.12px;
+    }
+    header{
+        height: 774px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        width: 738px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 53px;
+        padding-right: 45px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bann1{
+        background: no-repeat center/ 100% url(Image/Rectangle48.png);
+        height: 619px;
+        display: flex;
+        flex-direction: column;
+        text-align: center ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+
+    }
+    .bann1 p:first-child{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #F7F7F7;
+        margin-top: 73px;
+        
+    }
+    .bann1 p:nth-child(2){
+        top: 126px;
+        color: #ffffff;
+    }
+
+    h3{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        opacity: 0.8;
+        margin-left: 70px;
+    }
+    hr{
+        margin-top: 61.3px;
+        width: 50%;
+        left: auto;
+        right: auto;
+    }
+    h4{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-left: 70px;
+    }
+    .forminf{
+        height: 370px;
+    }
+    .inf{
+        height: 152px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 70px 320px 420px 320px 310px;
+    }
+    .name{
+        grid-row: 1;
+        grid-column: 2;
+
+    }
+    .first-name{
+        grid-row: 1;
+        grid-column: 4;
+    }
+    .phone{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .mail{
+        grid-row: 2;
+        grid-column: 4;
+    }
+    .name,.first-name,.mail,.phone{
+        display: flex;
+        flex-direction: column;
+    }
+    .formcom{
+        height: 899px;
+    }
+    .comtitle p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FA4A0C;
+        grid-column: 4;
+        align-self: center;
+    }
+    .comtitle{
+        display: grid;
+        grid-template-columns: 70px 396px 425px 1fr;
+    }
+    .comtitle h3{
+        grid-column: 2;
+        width: 100%;
+        margin-left: 0;
+    }
+    .formsupp{
+        display: grid;
+        grid-template-columns: 70px 320px 86px auto;
+    }
+    .ingredient{
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between ;
+        height: 304px;
+    }
+    .quantité{
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+        height: 304px;
+    }
+    .ingredient label{
+        height: 25%;
+    }
+    .quantité label{
+        height: 25%;
+    }
+    .formfri{
+        height: 89px;
+        display: grid;
+        grid-template-columns: 70px auto;
+        grid-template-rows: 1fr 1fr;
+    }
+    .afri{
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .sfri{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .extra{
+        height: 267px;
+        display: grid;
+        grid-template-columns: 70px 436px 187px 436px auto;
+    }
+    .boisson{
+        width: 462px;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .dessert{
+        width: 462px;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .boisson div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .dessert div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .formliv{
+        height: 867px;
+        
+    }
+    .infliv{
+        display: grid;
+        grid-template-rows: repeat(4,88px) ;
+        grid-template-columns: 70px 320px 420px 320px auto;
+    }
+    .name1{
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-name1{
+        grid-row: 1;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .telephone1{
+        grid-row: 2;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .e-mail1{
+        grid-row: 2;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .adresse1{
+        grid-row: 3;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .code-postal1{
+        grid-row: 3;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .ville1{
+        grid-row: 4 ;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .pays1{
+        grid-row: 4;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        height: 68px;
+        width: 177px;
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        margin-left: 1015px;
+        margin-top: 182px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    body{
+        width: max-content;
+        margin: 0;
+    }
+    header img{
+        width: 206px;
+        height: 102px;
+        padding-left: 90px;
+        padding-top: 26.12px;
+        margin-bottom: 27.12px;
+    }
+    header{
+        height: 774px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        width: 738px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 53px;
+        padding-right: 45px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bann1{
+        background: no-repeat center/ 100% url(Image/Rectangle48.png);
+        height: 619px;
+        display: flex;
+        flex-direction: column;
+        text-align: center ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+
+    }
+    .bann1 p:first-child{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #F7F7F7;
+        margin-top: 73px;
+        
+    }
+    .bann1 p:nth-child(2){
+        top: 126px;
+        color: #ffffff;
+    }
+
+    h3{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        opacity: 0.8;
+        margin-left: 70px;
+    }
+    hr{
+        margin-top: 61.3px;
+        width: 50%;
+        left: auto;
+        right: auto;
+    }
+    h4{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #000000;
+        margin-left: 70px;
+    }
+    .forminf{
+        height: 370px;
+    }
+    .inf{
+        height: 152px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 70px 320px 420px 320px 310px;
+    }
+    .name{
+        grid-row: 1;
+        grid-column: 2;
+
+    }
+    .first-name{
+        grid-row: 1;
+        grid-column: 4;
+    }
+    .phone{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .mail{
+        grid-row: 2;
+        grid-column: 4;
+    }
+    .name,.first-name,.mail,.phone{
+        display: flex;
+        flex-direction: column;
+    }
+    .formcom{
+        height: 899px;
+    }
+    .comtitle p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FA4A0C;
+        grid-column: 4;
+        align-self: center;
+    }
+    .comtitle{
+        display: grid;
+        grid-template-columns: 70px 396px 425px 1fr;
+    }
+    .comtitle h3{
+        grid-column: 2;
+        width: 100%;
+        margin-left: 0;
+    }
+    .formsupp{
+        display: grid;
+        grid-template-columns: 70px 320px 86px auto;
+    }
+    .ingredient{
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between ;
+        height: 304px;
+    }
+    .quantité{
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+        height: 304px;
+    }
+    .ingredient label{
+        height: 25%;
+    }
+    .quantité label{
+        height: 25%;
+    }
+    .formfri{
+        height: 89px;
+        display: grid;
+        grid-template-columns: 70px auto;
+        grid-template-rows: 1fr 1fr;
+    }
+    .afri{
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .sfri{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .extra{
+        height: 267px;
+        display: grid;
+        grid-template-columns: 70px 436px 187px 436px auto;
+    }
+    .boisson{
+        width: 462px;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .dessert{
+        width: 462px;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .boisson div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .dessert div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .formliv{
+        height: 867px;
+        
+    }
+    .infliv{
+        display: grid;
+        grid-template-rows: repeat(4,88px) ;
+        grid-template-columns: 70px 320px 420px 320px auto;
+    }
+    .name1{
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .first-name1{
+        grid-row: 1;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .telephone1{
+        grid-row: 2;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .e-mail1{
+        grid-row: 2;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .adresse1{
+        grid-row: 3;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .code-postal1{
+        grid-row: 3;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    .ville1{
+        grid-row: 4 ;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .pays1{
+        grid-row: 4;
+        grid-column: 4;
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        height: 68px;
+        width: 177px;
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        margin-left: 1015px;
+        margin-top: 182px;
+    }
+}
